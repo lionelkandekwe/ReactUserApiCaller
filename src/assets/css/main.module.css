@@ -13,7 +13,6 @@
   background-color: white;
 }
 .wrapper {
-  /* background-color: rebeccapurple; */
   position: absolute;
   top: 105px;
   display: grid;
@@ -24,15 +23,15 @@
   padding: 20px;
 }
 .wrapper .innerContainer {
-  /* background-color: cornflowerblue; */
   height: 400px;
   width: 300px;
   margin: 0 auto;
+  border: 2px solid #d1d3d4;
+  border-radius: 5px;
 }
 .innerContainer .thumbnail {
   height: 300px;
-  width: 300px;
-  /* background: yellow; */
+  width: 100%;
 }
 
 .thumbnail img {
@@ -40,16 +39,17 @@
   height: 100%;
 }
 .innerContainer .title {
-  height: 100px;
-  width: 300px;
-  background: crimson;
+  height: 96px;
+  width: 100%;
+  background: #edf2f4;
 }
 .title p {
   margin: 0;
   font-size: 15px;
-  padding: 2px 5px;
+  padding: 15px 5px;
   height: 100%;
   width: 100%;
+  text-align: center;
 }
 @media screen and (max-width: 1020px) {
   .wrapper {

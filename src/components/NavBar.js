@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from '../assets/css/NavBar.module.css'
+
 const NavBar = () => {
   return (
     <div className={classes.navContainer}>
